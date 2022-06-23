@@ -16,7 +16,7 @@ function AtualizarContador () {
 
 function Iniciar () {
     numeroSorteado = Math.round(Math.random() * 50);
-    exibir(`Começou! Digite um número. ${numeroSorteado}`);
+    exibir(`Começou! Digite um número.`);
     contador = 1;
     AtualizarContador();
     validar.addEventListener('click', Jogo )
