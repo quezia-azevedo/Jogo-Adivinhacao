@@ -43,7 +43,7 @@ function Jogo () {
     AtualizarContador();
 
     if (contador > 5) {
-    // exibir (`Esgotou as tentativas! O número era: ${numeroSorteado}. Incie um novo jogo`)
+    exibir (`Esgotou as tentativas! O número era: ${numeroSorteado}. Incie um novo jogo`)
     validar.removeEventListener('click', Jogo );
 }
 }
