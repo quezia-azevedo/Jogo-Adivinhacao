@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Adivnhação!!</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="header-img" src="img/academicons_hal.svg" alt="" />
+    </header>
+    <main class="main">
+      <h1>Jogo de Adivinhar</h1>
+      <section class="central">
+        <img id="central-img" src="img/academicons_figshare.svg" alt="" />
+
+        <div class="box-game">
+          <div class="box-game-cabecalho">
+            <p>Tentativas</p>
+
+            <p class="tentativas"></p>
+          </div>
+
+          <div class="box-game-conteudo">
+
+            <div class="input">
+              <label for="number">Chute um número entre 0 e 50:</label>
+              <input type="number" id="number" placeholder="Número..."/>
+            </div>
+            
+            <div class="buttons">
+                <button id="new-game" class="button">Novo Jogo!</button>
+                <button id="btn-verify" class="button">Verificar!</button>
+            </div>
+          </div>
+
+          <div id="campo-resultado" class="result">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img id="footer-img" src="img/academicons_dataverse.svg" alt="" />
+    </footer>
+
+    <script src="jogoadinhacao.js"></script>
+  </body>
+</html>
