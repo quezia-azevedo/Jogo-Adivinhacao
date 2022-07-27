@@ -31,12 +31,13 @@ function Jogo () {
     }
     
     if (chute < numeroSorteado) {
-        exibir(`Seu número é menor!! Tente novamente.`);
+        exibir(`O Numero sorteado é maior!! Tente novamente.`);
+        console.log(chute + numeroSorteado)
         contador++
     } 
     
     if (chute > numeroSorteado) {
-        exibir(`Seu número é maior!! Tente Novamente.`);
+        exibir(`O numero sorteado é menor!! Tente Novamente.`);
         contador++
     }
 
